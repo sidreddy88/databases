@@ -9,6 +9,12 @@ var parser = require('body-parser');
 var router = require('./routes.js');
 
 var app = express();
+
+// app.get('/', function (req, res) {
+//   res.send('Hello World!');
+// });
+
+
 module.exports.app = app;
 
 // Set what we are listening on.
